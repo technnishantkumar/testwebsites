@@ -1,0 +1,38 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: silver;
+    font-family: arial;
+}
+
+.navbar {
+    background-color: black;
+    padding: 20px 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    padding: 12px 20px;
+    color: white;
+    display: block;
+}
+
+
+.banner {
+    background: url(..//images/slider-3.jpg);
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+}
+
